@@ -66,7 +66,7 @@ if(window.location.hash){
     if(window.location.hash === '#de'){
         about.textContent = language.de.about;
         project.textContent = language.de.project;
-        Testimonials.textContent = language.de.Testimonials;
+        Testimonialss.textContent = language.de.Testimonials;
         heroText.textContent = language.de.heroText;
         transform.textContent = language.de.transform;
         transformText.textContent = language.de.transformText;
@@ -113,6 +113,7 @@ datareload.forEach(anchortag => {
 gsap.registerPlugin(ScrollTrigger);
 
 
+
 hamburger.addEventListener('click', () => {
     navbar.classList.toggle('showNav')
     backgroundLayer.classList.toggle('showNav')
@@ -131,8 +132,41 @@ hamburger.addEventListener('click', () => {
     })
 
 
+    
+
+    
+
+
 })
 
+
+// const about = document.getElementById('about')
+
+// about.addEventListener('click' , () => {
+
+//     navbar.classList.remove('showNav')
+//     backgroundLayer.classList.remove('showNav')
+
+//     console.log('hello')
+
+// })
+
+const links = document.querySelectorAll('.link');
+
+links.forEach(link => {
+    link.addEventListener('click' , () => {
+
+            navbar.classList.remove('showNav')
+            backgroundLayer.classList.remove('showNav')
+
+        
+        })
+
+
+
+})
+
+console.log(links)
 
 const windowWidth = window.innerWidth
 

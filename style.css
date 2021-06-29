@@ -37,6 +37,10 @@ img{
     display: block;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 .desktop{
     display: none;
