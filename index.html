@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> 
+  <title>SunnySide</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+      <nav>
+        <div class="logo">
+          <img src="../images/logo.svg" alt="logo" id="logo">
+        </div>
+        <div id='nav-lang-container' class="nav-lang-container">
+          <ul id="navlist" class="navlist">
+              <li><a id="about" href="#">About</a></li>
+              <li><a id="services" href="#">Services</a></li>
+              <li><a id="project" href="#">Projects</a></li>
+              <li><a id="Testimonials" href="#">Contact</a></li>
+    
+          </ul>
+          <div class="lang-menu">
+            <div class="selected-lang" >
+              <img id="flagimage" class="currentflag" src="https://www.countryflags.io/us/flat/32.png" alt="flag">
+              <p id="selectedlang" class="selectedlang" >English</p>
+            </div>
+            <ul>
+              <li>  <a class="de" href="#de" data-reload>Deutsch</a> </li>
+              <li> <a class="en" href="#eng" data-reload>English</a> </li>
+            </ul>
+          </div>
+
+
+
+
+        </div>
+        <div class="hamIcons" id="hamIcons">
+          <img src="../images/icon-hamburger.svg" alt="hamburgerOpen" id="hamburger"> 
+        </div>
+      </nav>
+      <!--Hero Section-->
+      <div class="hero-container">
+        <h1 id="heroText" class="hero-text">We are creatives</h1>
+        <div class="hero-icon">
+          <img class="arrow-down" src="../images/icon-arrow-down.svg" alt="arrow-down-icon">
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <!--First main section-->
+    <section  class="first-section">
+
+      <div id="section-image" class="section-image first-section-image">
+        <img class="mobile first-section-inner-image-mobile" src="../images/mobile/image-transform.jpg" alt="">
+        <img class="desktop first-section-inner-image-desktop" src="../images/desktop/image-transform.jpg" alt="">
+      </div>
+
+      <div class="first-section-text">
+        <div class="first-section-main-text">
+          <h2 id="transform">Transform your brand</h2>
+          <p id="transformText">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a id='transformlink' href="#">Learn More</a>
+        </div>
+      </div>
+      
+    </section>
+    <!--Second main section-->
+    <section class='second-section'>
+      <div id="cup" class="section-image">
+        <img class="mobile" src="../images/mobile/image-stand-out.jpg" alt="">
+        <img class="desktop" src="../images/desktop/image-stand-out.jpg" alt="">
+      </div>
+      <div class="second-section-text">
+        <div class="second-section-main-text">
+          <h2 id="standout">Stand out to the right audience</h2>
+          <p id="standoutText"> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+          <a id="idLink" href="#">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <!--Third Main Section-->
+    <section id="third-section" class="third-section">
+      <div class="graphics-section">
+        <div class="third-section-main-text">
+          <h2 class="graphics-heading" id="graphics">Graphic design</h2>
+        <p id="graphicsText" class="graphics-main-text graphicsText">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+
+        </div>
+        
+      </div>
+      <div class="photography-section">
+        <div class="third-section-main-text">
+          <h2 class="photography-heading" id="photography">Photography</h2>
+        <p id="photographyText" class="graphics-main-text photo-text">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+
+        </div>
+
+      </div>
+    </section>
+    <!--Testimonial section-->
+    <section id="Testimonials" class="testimonials">
+      <h3 class="client-heading" id="client">Client testimonials</h3>
+      <div class="testimonials-container">
+        
+        <div class="testimonial-control">
+          <div class="testimonial-image">
+            <img src="../images/image-emily.jpg" alt='emily'>
+          </div>
+          
+          <p class="testimonial-text" id="emilyText">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <div class="testimonial-name">
+            <h5>Emily R.</h5>
+            <p  id="emilyTitle">Marketing Director</p>
+          </div>
+        </div>
+        <!--Thomas-->
+        <div class="testimonial-control">
+          <div class="testimonial-image">
+            <img src="../images/image-thomas.jpg" alt='thomas'>
+          </div>
+          <p class="testimonial-text"  id="thomasText">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying.</p>
+          <div class="testimonial-name">
+            <h5>Thomas S.</h5>
+            <p id="thomasTitle">Chief Operating Officer</p>
+          </div>
+        </div>
+        <!--Jennie-->
+        <div class="testimonial-control">
+          <div class="testimonial-image">
+            <img src="../images/image-jennie.jpg" alt='jennie'>
+          </div>
+          <p class="testimonial-text"  id="jennieText">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div class="testimonial-name">
+            <h5>Jennie F.</h5>
+            <p id="jennieTitle">Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Pictures section-->
+    <section class="mobile random-images-container">
+      <div >
+        <img src="../images/mobile/image-gallery-milkbottles.jpg" alt="">
+      </div>
+      <div>
+        <img src="../images/mobile/image-gallery-orange.jpg" alt="">
+      </div>
+      <div>
+        <img src="../images/mobile/image-gallery-cone.jpg" alt="">
+      </div>
+      <div>
+        <img src="../images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+      </div>
+    </section>
+    <section class="desktop random-desktop-image">
+      <div >
+        <img src="../images/desktop/image-gallery-milkbottles.jpg" alt="">
+      </div>
+      <div>
+        <img src="../images/desktop/image-gallery-orange.jpg" alt="">
+      </div>
+      <div>
+        <img src="../images/desktop/image-gallery-cone.jpg" alt="">
+      </div>
+      <div>
+        <img src="../images/desktop/image-gallery-sugarcubes.jpg" alt="">
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="../images/logo.svg" alt="logo">
+      </div>
+      <ul>
+        <li><a id="footerabout">About</a></li>
+        <li><a id="footerservices">Services</a></li>
+        <li><a id="footerprojects">Projects</a></li>
+      </ul>
+      <div class="footer-icons">
+        <img src="../images/icon-facebook.svg" alt="facebook">
+        <img src="../images/icon-instagram.svg" alt="instagram">
+        <img src="../images/icon-twitter.svg" alt="twitter">
+        <img src="../images/icon-pinterest.svg" alt="pinterest">
+      </div>
+    </div>
+  </footer>
+  <div id="background" class="background">
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+
+  
+  <script src="App.js"></script>
+</body>
+</html>
