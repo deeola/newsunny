@@ -1,7 +1,29 @@
-const hamburger = document.getElementById('hamIcons');
-const backgroundLayer = document.getElementById('background')
+//SERVICE WORKER
 
-const navbar = document.getElementById('nav-lang-container');
+if('serviceWorker' in  navigator){
+    window.addEventListener('load', () => {
+        navigator.serviceWorker
+        .register('sw_cached_pages.js')
+        .then(reg => console.log('service worker registered'))
+        .catch(err => console.log(`service worker : error : ${err}`))
+    })
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,6 +135,16 @@ datareload.forEach(anchortag => {
 gsap.registerPlugin(ScrollTrigger);
 
 
+//HAMBURGER
+
+
+const hamburger = document.getElementById('hamIcons');
+const backgroundLayer = document.getElementById('background')
+
+const navbar = document.getElementById('nav-lang-container');
+
+
+
 
 hamburger.addEventListener('click', () => {
     navbar.classList.toggle('showNav')
@@ -140,17 +172,6 @@ hamburger.addEventListener('click', () => {
 })
 
 
-// const about = document.getElementById('about')
-
-// about.addEventListener('click' , () => {
-
-//     navbar.classList.remove('showNav')
-//     backgroundLayer.classList.remove('showNav')
-
-//     console.log('hello')
-
-// })
-
 const links = document.querySelectorAll('.link');
 
 links.forEach(link => {
@@ -166,7 +187,12 @@ links.forEach(link => {
 
 })
 
-console.log(links)
+
+
+
+
+
+//ANIMATIONS BASED ON window inner width
 
 const windowWidth = window.innerWidth
 
