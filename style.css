@@ -50,7 +50,7 @@ body{
 
 header{
     width: 100%;
-    background-image: url('../images/mobile/image-header.jpg');
+    background-image: url('./images/mobile/image-header.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,7 +350,7 @@ header{
 
 
 .graphics-section{
-    background-image: url('../images/mobile/image-graphic-design.jpg');
+    background-image: url('./images/mobile/image-graphic-design.jpg');
     padding: 400px 50px 100px 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -358,7 +358,7 @@ header{
 }
 
 .photography-section{
-    background-image: url('../images/mobile/image-photography.jpg');
+    background-image: url('./images/mobile/image-photography.jpg');
     padding: 400px 50px 50px 50px;
     background-position: center;
     background-repeat: no-repeat;
@@ -549,7 +549,7 @@ footer .footer-container{
     }
 
     header{
-        background-image: url('../images/desktop/image-header.jpg');
+        background-image: url('./images/desktop/image-header.jpg');
         
     }
 
@@ -728,7 +728,7 @@ footer .footer-container{
     }
 
     .graphics-section{
-        background-image: url('../images/desktop/image-graphic-design.jpg');
+        background-image: url('./images/desktop/image-graphic-design.jpg');
         /* padding: 70px 50px; */
         /* background-position: center;
         background-repeat: no-repeat;
@@ -740,7 +740,7 @@ footer .footer-container{
     }
     
     .photography-section{
-        background-image: url('../images/desktop/image-photography.jpg');
+        background-image: url('./images/desktop/image-photography.jpg');
         padding: unset;
         /* background-position: center;
         background-repeat: no-repeat;
@@ -909,7 +909,7 @@ footer .footer-container{
     }
 
     .graphics-section{
-        background-image: url('../images/desktop/image-graphic-design.jpg');
+        background-image: url('./images/desktop/image-graphic-design.jpg');
         padding: 150px 50px 30px 50px;
         width: 50%;
         
