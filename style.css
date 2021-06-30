@@ -506,6 +506,15 @@ footer .footer-container{
     
 }
 
+
+.footer-container ul li a{
+    text-decoration: none;
+    color: var(--Dark-desaturated-cyan);
+}
+
+
+
+
 .footer-container .footer-icons{
     display: flex;
     justify-content: space-between;
