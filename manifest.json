@@ -1,7 +1,7 @@
 {
     "name" : "sunnyside",
     "short_name" : "sunny",
-    "start_url" : "index.html",
+    "start_url" : "https://deeola.github.io/newsunny/index.html",
     "display" : "standalone",
     "background_color" : "#FFE866",
     "theme_color" : "#19536B",
