@@ -1,6 +1,6 @@
 // CALL INSTALL EVENT
 
-const myCached = "d2";
+const myCached = "d1";
 
 // const myCatchedAssests = [
 //     '/',
