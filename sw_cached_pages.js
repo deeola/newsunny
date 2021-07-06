@@ -1,38 +1,12 @@
 // CALL INSTALL EVENT
 
-const myCached = "d1";
+const myCached = "d2";
 
-// const myCatchedAssests = [
-//     '/',
-//     'index.html',
-//     'style.css',
-//     'App.js',
-//     '/images/logo.svg',
-//     '/images/desktop/image-header.jpg',
-//     '/images/mobile/image-header.jpg',
-//     '/images/icon-hamburger.svg',
-//     '/images/icon-arrow-down.svg'
-
-// ]
-
-self.addEventListener("install", (e) => {
-  console.log("service worker installed");
-
-  // e.waitUntil(
-  //     caches.open(myCached)
-  //         .then( cache => {
-  //             console.log('sevice worker: catching files')
-  //             cache.addAll(myCatchedAssests)
-  //         })
-  //         .then(() => self.skipWaiting())
-  // )
-});
+self.addEventListener("install", (e) => {});
 
 //CALL THE ACTIVATE EVENT
 
 self.addEventListener("activate", (e) => {
-  console.log("service worker activated");
-
   // Remove unwanted caches
 
   e.waitUntil(
@@ -51,12 +25,9 @@ self.addEventListener("activate", (e) => {
 //CALL FETCH EVENT
 
 self.addEventListener("fetch", (e) => {
-  console.log("service worker fecthing");
   if (!(e.request.url.indexOf("http") === 0)) return;
 
   e.respondWith(
-    // fetch(e.request).catch( () => caches.match(e.request))
-
     fetch(e.request)
       .then((res) => {
         //make copy/clone
