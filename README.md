@@ -37,4 +37,4 @@ Users are be able to:
 
 ### What I learned
 
-Introduced to GSAP and the smooth scroll plugin.
+Introduction to Service Worker and Manifest.json
